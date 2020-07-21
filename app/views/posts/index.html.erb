@@ -1,5 +1,5 @@
 <% @posts.each do |post| %>
   <div>
-  <p><%= last_updated post %></p>
+    <%= post.title %> - <%= last_updated post %>
   </div>
 <% end %>
